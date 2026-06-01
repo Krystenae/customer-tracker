@@ -25,3 +25,8 @@ customers.shift();
 
 customers[0].email = "sarah.j@email.com";
 customers[0].purchases.push("USB Drive");
+customers.forEach(customer => {
+    console.log(
+        `Name: ${customer.name}, Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`
+    );
+});
