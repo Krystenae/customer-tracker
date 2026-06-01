@@ -15,3 +15,13 @@ let customers = [
         purchases: ["Monitor", "Headphones"]
     }
 ];
+customers.push({
+    name: "Emily Davis",
+    email: "emily.davis@email.com",
+    purchases: ["Webcam"]
+});
+
+customers.shift();
+
+customers[0].email = "sarah.j@email.com";
+customers[0].purchases.push("USB Drive");
